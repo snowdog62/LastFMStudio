@@ -7,10 +7,6 @@ using System.Net.Http.Formatting;
 using System.Web;
 
 
-//API Key: 533d6a1c6e256f5c1971ee1bb6624222
-//Secret: is 1da6f86335824b959cf2873c24cbcb32
-// API url http://ws.audioscrobbler.com/2.0/
-
 namespace LastFMLib
 {
     namespace GetArtists
@@ -190,7 +186,7 @@ namespace LastFMLib
 
         public LastFM()
         {
-            this.apiKey = "&api_key=533d6a1c6e256f5c1971ee1bb6624222";
+            this.apiKey = "";
             this.apiUrl = "http://ws.audioscrobbler.com/2.0/";
         }
 
